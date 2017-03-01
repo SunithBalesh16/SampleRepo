@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18049EB51E655F0400138FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18049EB41E655F0400138FF2 /* AppDelegate.swift */; };
+		18049EB71E655F0400138FF2 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18049EB61E655F0400138FF2 /* RootViewController.swift */; };
+		18049EBA1E655F0400138FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18049EB81E655F0400138FF2 /* Main.storyboard */; };
+		18049EBD1E655F0400138FF2 /* LiveConnect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18049EBB1E655F0400138FF2 /* LiveConnect.xcdatamodeld */; };
+		18049EBF1E655F0400138FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18049EBE1E655F0400138FF2 /* Assets.xcassets */; };
+		18049EC21E655F0400138FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18049EC01E655F0400138FF2 /* LaunchScreen.storyboard */; };
+		18049ECD1E655F0400138FF2 /* LiveConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18049ECC1E655F0400138FF2 /* LiveConnectTests.swift */; };
+		18049ED81E655F0400138FF2 /* LiveConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18049ED71E655F0400138FF2 /* LiveConnectUITests.swift */; };
+		18049EE71E65819F00138FF2 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18049EE61E65819F00138FF2 /* SliderViewController.swift */; };
+		18049EE91E6581B300138FF2 /* SmartOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18049EE81E6581B300138FF2 /* SmartOrderViewController.swift */; };
+		18049EEB1E6581D900138FF2 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18049EEA1E6581D900138FF2 /* ContainerViewController.swift */; };
+		188C0CB91E66CD85003EE959 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C0CB81E66CD85003EE959 /* TestViewController.swift */; };
+		188C0CBB1E66EB29003EE959 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188C0CBA1E66EB29003EE959 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18049EC91E655F0400138FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18049EA91E655F0400138FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18049EB01E655F0400138FF2;
+			remoteInfo = LiveConnect;
+		};
+		18049ED41E655F0400138FF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18049EA91E655F0400138FF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18049EB01E655F0400138FF2;
+			remoteInfo = LiveConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18049EB11E655F0400138FF2 /* LiveConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18049EB41E655F0400138FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18049EB61E655F0400138FF2 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		18049EB91E655F0400138FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18049EBC1E655F0400138FF2 /* LiveConnect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveConnect.xcdatamodel; sourceTree = "<group>"; };
+		18049EBE1E655F0400138FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18049EC11E655F0400138FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18049EC31E655F0400138FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18049EC81E655F0400138FF2 /* LiveConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18049ECC1E655F0400138FF2 /* LiveConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveConnectTests.swift; sourceTree = "<group>"; };
+		18049ECE1E655F0400138FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18049ED31E655F0400138FF2 /* LiveConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18049ED71E655F0400138FF2 /* LiveConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveConnectUITests.swift; sourceTree = "<group>"; };
+		18049ED91E655F0400138FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18049EE61E65819F00138FF2 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
+		18049EE81E6581B300138FF2 /* SmartOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartOrderViewController.swift; sourceTree = "<group>"; };
+		18049EEA1E6581D900138FF2 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		188C0CB81E66CD85003EE959 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		188C0CBA1E66EB29003EE959 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18049EAE1E655F0400138FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18049EC51E655F0400138FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18049ED01E655F0400138FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18049EA81E655F0400138FF2 = {
+			isa = PBXGroup;
+			children = (
+				18049EB31E655F0400138FF2 /* LiveConnect */,
+				18049ECB1E655F0400138FF2 /* LiveConnectTests */,
+				18049ED61E655F0400138FF2 /* LiveConnectUITests */,
+				18049EB21E655F0400138FF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18049EB21E655F0400138FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18049EB11E655F0400138FF2 /* LiveConnect.app */,
+				18049EC81E655F0400138FF2 /* LiveConnectTests.xctest */,
+				18049ED31E655F0400138FF2 /* LiveConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18049EB31E655F0400138FF2 /* LiveConnect */ = {
+			isa = PBXGroup;
+			children = (
+				18049EE51E65817200138FF2 /* View Controllers */,
+				18049EB41E655F0400138FF2 /* AppDelegate.swift */,
+				18049EB61E655F0400138FF2 /* RootViewController.swift */,
+				18049EB81E655F0400138FF2 /* Main.storyboard */,
+				18049EBE1E655F0400138FF2 /* Assets.xcassets */,
+				18049EC01E655F0400138FF2 /* LaunchScreen.storyboard */,
+				18049EC31E655F0400138FF2 /* Info.plist */,
+				18049EBB1E655F0400138FF2 /* LiveConnect.xcdatamodeld */,
+			);
+			path = LiveConnect;
+			sourceTree = "<group>";
+		};
+		18049ECB1E655F0400138FF2 /* LiveConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				18049ECC1E655F0400138FF2 /* LiveConnectTests.swift */,
+				18049ECE1E655F0400138FF2 /* Info.plist */,
+			);
+			path = LiveConnectTests;
+			sourceTree = "<group>";
+		};
+		18049ED61E655F0400138FF2 /* LiveConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18049ED71E655F0400138FF2 /* LiveConnectUITests.swift */,
+				18049ED91E655F0400138FF2 /* Info.plist */,
+			);
+			path = LiveConnectUITests;
+			sourceTree = "<group>";
+		};
+		18049EE51E65817200138FF2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18049EE61E65819F00138FF2 /* SliderViewController.swift */,
+				18049EE81E6581B300138FF2 /* SmartOrderViewController.swift */,
+				18049EEA1E6581D900138FF2 /* ContainerViewController.swift */,
+				188C0CB81E66CD85003EE959 /* TestViewController.swift */,
+				188C0CBA1E66EB29003EE959 /* LoginViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18049EB01E655F0400138FF2 /* LiveConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18049EDC1E655F0400138FF2 /* Build configuration list for PBXNativeTarget "LiveConnect" */;
+			buildPhases = (
+				18049EAD1E655F0400138FF2 /* Sources */,
+				18049EAE1E655F0400138FF2 /* Frameworks */,
+				18049EAF1E655F0400138FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveConnect;
+			productName = LiveConnect;
+			productReference = 18049EB11E655F0400138FF2 /* LiveConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18049EC71E655F0400138FF2 /* LiveConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18049EDF1E655F0400138FF2 /* Build configuration list for PBXNativeTarget "LiveConnectTests" */;
+			buildPhases = (
+				18049EC41E655F0400138FF2 /* Sources */,
+				18049EC51E655F0400138FF2 /* Frameworks */,
+				18049EC61E655F0400138FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18049ECA1E655F0400138FF2 /* PBXTargetDependency */,
+			);
+			name = LiveConnectTests;
+			productName = LiveConnectTests;
+			productReference = 18049EC81E655F0400138FF2 /* LiveConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18049ED21E655F0400138FF2 /* LiveConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18049EE21E655F0400138FF2 /* Build configuration list for PBXNativeTarget "LiveConnectUITests" */;
+			buildPhases = (
+				18049ECF1E655F0400138FF2 /* Sources */,
+				18049ED01E655F0400138FF2 /* Frameworks */,
+				18049ED11E655F0400138FF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18049ED51E655F0400138FF2 /* PBXTargetDependency */,
+			);
+			name = LiveConnectUITests;
+			productName = LiveConnectUITests;
+			productReference = 18049ED31E655F0400138FF2 /* LiveConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18049EA91E655F0400138FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CSquare;
+				TargetAttributes = {
+					18049EB01E655F0400138FF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CXLA5NTDGY;
+						ProvisioningStyle = Automatic;
+					};
+					18049EC71E655F0400138FF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18049EB01E655F0400138FF2;
+					};
+					18049ED21E655F0400138FF2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18049EB01E655F0400138FF2;
+					};
+				};
+			};
+			buildConfigurationList = 18049EAC1E655F0400138FF2 /* Build configuration list for PBXProject "LiveConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18049EA81E655F0400138FF2;
+			productRefGroup = 18049EB21E655F0400138FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18049EB01E655F0400138FF2 /* LiveConnect */,
+				18049EC71E655F0400138FF2 /* LiveConnectTests */,
+				18049ED21E655F0400138FF2 /* LiveConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18049EAF1E655F0400138FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18049EC21E655F0400138FF2 /* LaunchScreen.storyboard in Resources */,
+				18049EBF1E655F0400138FF2 /* Assets.xcassets in Resources */,
+				18049EBA1E655F0400138FF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18049EC61E655F0400138FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18049ED11E655F0400138FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18049EAD1E655F0400138FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188C0CB91E66CD85003EE959 /* TestViewController.swift in Sources */,
+				18049EBD1E655F0400138FF2 /* LiveConnect.xcdatamodeld in Sources */,
+				18049EE91E6581B300138FF2 /* SmartOrderViewController.swift in Sources */,
+				18049EB71E655F0400138FF2 /* RootViewController.swift in Sources */,
+				188C0CBB1E66EB29003EE959 /* LoginViewController.swift in Sources */,
+				18049EB51E655F0400138FF2 /* AppDelegate.swift in Sources */,
+				18049EEB1E6581D900138FF2 /* ContainerViewController.swift in Sources */,
+				18049EE71E65819F00138FF2 /* SliderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18049EC41E655F0400138FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18049ECD1E655F0400138FF2 /* LiveConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18049ECF1E655F0400138FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18049ED81E655F0400138FF2 /* LiveConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18049ECA1E655F0400138FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18049EB01E655F0400138FF2 /* LiveConnect */;
+			targetProxy = 18049EC91E655F0400138FF2 /* PBXContainerItemProxy */;
+		};
+		18049ED51E655F0400138FF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18049EB01E655F0400138FF2 /* LiveConnect */;
+			targetProxy = 18049ED41E655F0400138FF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18049EB81E655F0400138FF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18049EB91E655F0400138FF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18049EC01E655F0400138FF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18049EC11E655F0400138FF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18049EDA1E655F0400138FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18049EDB1E655F0400138FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18049EDD1E655F0400138FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CXLA5NTDGY;
+				INFOPLIST_FILE = LiveConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c2info.LiveConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18049EDE1E655F0400138FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CXLA5NTDGY;
+				INFOPLIST_FILE = LiveConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c2info.LiveConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18049EE01E655F0400138FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c2info.LiveConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveConnect.app/LiveConnect";
+			};
+			name = Debug;
+		};
+		18049EE11E655F0400138FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LiveConnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c2info.LiveConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveConnect.app/LiveConnect";
+			};
+			name = Release;
+		};
+		18049EE31E655F0400138FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LiveConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c2info.LiveConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LiveConnect;
+			};
+			name = Debug;
+		};
+		18049EE41E655F0400138FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LiveConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.c2info.LiveConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LiveConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18049EAC1E655F0400138FF2 /* Build configuration list for PBXProject "LiveConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18049EDA1E655F0400138FF2 /* Debug */,
+				18049EDB1E655F0400138FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18049EDC1E655F0400138FF2 /* Build configuration list for PBXNativeTarget "LiveConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18049EDD1E655F0400138FF2 /* Debug */,
+				18049EDE1E655F0400138FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18049EDF1E655F0400138FF2 /* Build configuration list for PBXNativeTarget "LiveConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18049EE01E655F0400138FF2 /* Debug */,
+				18049EE11E655F0400138FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18049EE21E655F0400138FF2 /* Build configuration list for PBXNativeTarget "LiveConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18049EE31E655F0400138FF2 /* Debug */,
+				18049EE41E655F0400138FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18049EBB1E655F0400138FF2 /* LiveConnect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18049EBC1E655F0400138FF2 /* LiveConnect.xcdatamodel */,
+			);
+			currentVersion = 18049EBC1E655F0400138FF2 /* LiveConnect.xcdatamodel */;
+			path = LiveConnect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18049EA91E655F0400138FF2 /* Project object */;
+}

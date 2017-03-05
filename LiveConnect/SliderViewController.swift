@@ -12,7 +12,7 @@ class SliderViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("sunit")
+        print("sunith")
         // Do any additional setup after loading the view.
     }
 
